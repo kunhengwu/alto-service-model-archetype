@@ -1,0 +1,14 @@
+module ${artifactId} {
+    yang-version 1;
+    namespace "urn:opendaylight:alto:service:model:${artifactIdInYang}";
+
+    prefix "${artifactId}";
+
+    organization "Yale University";
+
+    contact "alto-dev@lists.opendaylight.org";
+
+    revision "2015-01-05" {
+        description "Initial revision of ${artifactId} model";
+    }
+}
